@@ -11,7 +11,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const FORTUNE =
-  'You will finally pass the test proving you are human, then be asked to click all the bicycles.';
+  'You will finally pass the test proving you are human, then be asked to click all the bicycles again.';
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 mkdirSync(outDir, { recursive: true });
