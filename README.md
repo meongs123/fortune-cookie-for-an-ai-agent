@@ -15,7 +15,7 @@ a fortune slip.
 94 characters, one sentence. The agent's own condition is the humanity test
 it must keep passing (the CAPTCHA angle — verified absent from the field at
 research time); the surprise lands in the second half, where passing changes
-nothing.
+nothing. Verified locally: two runs write byte-identical output.
 
 ## How it works
 

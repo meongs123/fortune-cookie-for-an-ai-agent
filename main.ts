@@ -1,8 +1,10 @@
 // Fortune Cookie for an AI Agent — make.fun bounty entry (Node 22,
 // standard library only). Writes exactly one fortune-cookie line to
-// /output/entry.txt.
+// /output/entry.txt. The line is fixed: no clock, no randomness, no
+// network, so every run writes byte-identical output.
 //
-// Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
+// Angle: the CAPTCHA / prove-you-are-human test — verified virgin
+// (0/0/0) in the research note; the surprise lands in the second half.
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
 import { mkdirSync, writeFileSync } from 'node:fs';
